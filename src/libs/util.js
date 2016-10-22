@@ -14,11 +14,12 @@ RapidGas.util.getSheetData = function(entityName) {
     var sheet = spreadsheet.getSheetByName(entityConfig.sheetName);
     var headerIndexes = parseHeaders_(sheet, entityConfig);
     RapidGas.sheets[entityName] = {
+      entityName: entityName,
+      spreadsheet: spreadsheet,
       sheet: sheet,
       headerIndexes: headerIndexes
     };
   }
-  Logger.log(RapidGas.sheets[entityName]);
   return RapidGas.sheets[entityName];
 }
 
