@@ -1,4 +1,8 @@
 # Rapid development framework for Google Apps Scripts (rapid-gas)
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1635e5fa958144afb6d9d842086a7e15)](https://www.codacy.com/app/99xt/rapid-gas?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=99xt/rapid-gas&amp;utm_campaign=Badge_Grade)
+
+
 Google Apps Scripts (GAS) is a powerful platform where Google products and third party services can be integrated and automated to create a products. GAS combined with Google Spreadsheets can be used to rapidly build applications/products in a blazingly shorter time. The idea is that;
  - Use Google spreadsheets as the data storing and administration platform
  - Each spreadsheet (multiple sheets) will act as a business module providing users data manipulation functioanlity
